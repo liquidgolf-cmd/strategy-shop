@@ -11,10 +11,12 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onEnter }) => {
         {/* App Logo/Title */}
         <div className="mb-8">
           <div className="flex flex-col items-center mb-6">
-            {/* Professional logo - using emoji for Phase 1, can replace with actual logo later */}
-            <div className="text-8xl md:text-9xl mb-4 animate-fade-in">
-              💼
-            </div>
+            {/* Professional logo */}
+            <img 
+              src="/strategy-shop-logo.png" 
+              alt="The Strategy Shop" 
+              className="w-32 h-32 md:w-40 md:h-40 mb-4 animate-fade-in object-contain"
+            />
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-strategy-neutral-dark leading-tight mb-2">
               The Strategy Shop
             </h1>
