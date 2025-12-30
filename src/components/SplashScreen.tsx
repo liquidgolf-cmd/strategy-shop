@@ -9,17 +9,14 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onEnter }) => {
     <div className="min-h-screen bg-gradient-to-br from-strategy-primary-light via-white to-strategy-accent-light flex flex-col items-center justify-center p-4 animate-fade-in">
       <div className="text-center max-w-3xl animate-slide-up">
         {/* App Logo/Title */}
-        <div className="mb-8">
-          <div className="flex flex-col items-center mb-6">
+        <div className="mb-6">
+          <div className="flex flex-col items-center mb-4">
             {/* Professional logo */}
             <img 
               src="/strategy-shop-logo.png" 
               alt="The Strategy Shop" 
-              className="w-32 h-32 md:w-40 md:h-40 mb-4 animate-fade-in object-contain"
+              className="w-32 h-32 md:w-40 md:h-40 mb-3 animate-fade-in object-contain"
             />
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-strategy-neutral-dark leading-tight mb-2">
-              The Strategy Shop
-            </h1>
             <p className="text-xl md:text-2xl font-display text-strategy-primary">
               Your Business Strategy Thinking Partner
             </p>
