@@ -11,14 +11,14 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onEnter }) => {
       {/* Navigation Bar */}
       <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center gap-3">
+          <div className="flex items-center justify-between h-20">
+            <div className="flex items-center gap-4">
               <img 
                 src="/strategy-shop-logo.png" 
                 alt="The Strategy Shop" 
-                className="h-10 w-10 object-contain"
+                className="h-14 w-14 object-contain"
               />
-              <span className="text-xl font-display font-bold text-strategy-neutral-dark">
+              <span className="text-2xl font-display font-bold text-strategy-neutral-dark">
                 The Strategy Shop
               </span>
             </div>
@@ -30,6 +30,14 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onEnter }) => {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-4xl mx-auto">
+            {/* Prominent Logo */}
+            <div className="flex justify-center mb-8">
+              <img 
+                src="/strategy-shop-logo.png" 
+                alt="The Strategy Shop" 
+                className="h-24 w-24 sm:h-32 sm:w-32 object-contain animate-fade-in"
+              />
+            </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold text-strategy-neutral-dark leading-tight mb-6">
               Strategic Clarity for Your Toughest Business Decisions
             </h1>
@@ -239,7 +247,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onEnter }) => {
               <img 
                 src="/strategy-shop-logo.png" 
                 alt="The Strategy Shop" 
-                className="h-8 w-8 object-contain opacity-80"
+                className="h-10 w-10 object-contain"
               />
               <span className="text-lg font-display font-bold text-gray-300">
                 The Strategy Shop
